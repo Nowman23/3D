@@ -1,0 +1,53 @@
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-image: url(https://w.forfun.com/fetch/17/176c0b56597c3c7a3867b7049fdf7469.jpeg?w=1000&r=0.5625);
+    background-size: cover;
+    background-repeat: cover;
+    background-position: center;
+}
+
+nav {
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav:before{
+    content:'';
+    display: block;
+    height: 50px;
+    widht: 100%;
+    background: #000;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    color: #fff;
+    display: block;
+    height: 50px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+ul li a:hover {
+    background: #d34d43;
+}
